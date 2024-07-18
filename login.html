@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./estiloLogin.css">
+    <title>Tela de login Usuário</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="form-cadastro">
+                <h1>Crie sua conta!</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use seu email e senha para se cadastrar</span>
+                <input id="k1" type="text" placeholder="Nome">
+                <input id="k2" type="email" placeholder="Email">
+                <input id="k3" type="password" placeholder="Senha">
+                <button>Cadastre-se!</button>
+            </form>
+        </div> 
+        <div class="form-container sign-in">
+            <form id="form-cadastro">
+                <h1>Entre já!</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use seu email e senha</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <a href="index.html" target="_self"><button>Entrar</button></a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Entre com seus dados para logar na sua conta</p>
+                    <button class="hidden" id="login">Entre já</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, seja bem vindo!</h1>
+                    <p>Se cadastre para poder utilizar todas as funcionalidades do site!</p>
+                    <button type="submit" class="hidden" id="register">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scriptl.js"></script>
+    <script src="scriptparacadastrar.js"></script>
+    <script src="scriptparalogar.js"></script>
+    
+</body>
+
+</html>

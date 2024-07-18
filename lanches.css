@@ -1,0 +1,138 @@
+.main{
+    background-image: url(./img/fundo-riscado-abstrato-com-um-efeito-do-grunge\ 1.png);
+    background-size: cover;
+}
+
+.allimg {
+    width: 206px;
+    height: 196px; 
+}
+
+.NomeH{
+    color: #FFF500;
+    font-family: "Reenie Beanie";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.paragrafos{
+    color: #FFF;
+    text-align: center;
+    font-family: "Reenie Beanie";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.botão{
+    border-radius: 10px;
+    width: 62px;
+    height: 32.667px;
+    flex-shrink: 0;    
+    background: #FFE600;
+    font-family: "K2D";
+    cursor: pointer;
+}
+.botão:hover{
+    background-color: #dbc605e3;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.unavailable {
+    filter: grayscale(100%);
+}
+.preco {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+:root{
+    --Lanches:"K2D";
+    --textol: "Reenie beanie"
+}
+
+.sub{
+    color: #FFF;
+    font-family: var(--Lanches);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.padrão{
+    background-image: url(./img/fundo-riscado-abstrato-com-um-efeito-do-grunge\ 1.png);
+    background-size: cover;
+}
+.container-top,
+.container-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.container-top > div,
+.container-bottom > div {
+    text-align: center; 
+}
+
+/* Estilo para o carrinho de compras */
+.carrinho {
+    background-color: black; /* Fundo claro para destacar o carrinho */
+    border: 1px solid rgba(0, 0, 0, 0.632); /* Borda sutil ao redor do carrinho */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 16px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.carrinho .sub {
+    margin-bottom: 16px; /* Espaçamento inferior do título */
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito para o título */
+    text-align: center; /* Centralizar o texto do título */
+}
+
+.itens-carrinho {
+    max-height: 200px; /* Altura máxima para a lista de itens */
+    overflow-y: auto; /* Rolagem vertical para a lista */
+    margin-bottom: 16px; /* Espaçamento inferior da lista */
+    padding-right: 10px; /* Espaçamento direito para a rolagem */
+}
+
+.item-carrinho {
+    display: flex; /* Layout flexível para os itens */
+    justify-content: space-between; /* Espaçar conteúdo entre as extremidades */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    padding: 8px 0; /* Espaçamento interno dos itens */
+    border-bottom: 1px solid #dee2e6; /* Linha divisória entre os itens */
+}
+
+.item-carrinho:last-child {
+    border-bottom: none; /* Remover linha divisória do último item */
+}
+
+.item-carrinho span {
+    font-size: 16px; /* Tamanho da fonte dos itens */
+}
+
+.total-carrinho {
+    display: flex; /* Layout flexível para o total */
+    justify-content: space-between; /* Espaçar conteúdo entre as extremidades */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    font-size: 18px; /* Tamanho da fonte do total */
+    font-weight: bold; /* Negrito para o total */
+    padding-top: 8px; /* Espaçamento superior */
+    border-top: 2px solid #dee2e6; /* Linha superior divisória */
+}
+
+.total-carrinho span {
+    font-size: 20px; /* Tamanho da fonte do valor total */
+    color: #28a745; /* Cor verde para o valor total */
+}
